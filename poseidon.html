@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Poseidon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                    <!-- Added a div for search dropdown -->
+                    <li>
+                      <div class="dropdown-search">
+                          <button onclick="myFunction()" class="dropbtn">
+                              <span class="material-symbols-outlined">search</span>
+                          </button>
+                          <div id="myDropdown" class="dropdown-content-search">
+                              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                              <!-- Search options -->
+                              <a href="zeus.html">Zeus</a>
+                              <a href="hera.html">Hera</a>
+                              <a href="poseidon.html">Poseidon</a>
+                              <a href="aphrodite.html">Aphrodite</a>
+                              <a href="apollo.html">Apollo</a>
+                              <a href="artemis.html">Artemis</a>
+                              <a href="hermes.html">Hermes</a>
+                              <script src="search.js"></script>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1><center>Poseidon</center></h1>
+        <div class="god">
+                <img class="godborder" src="poseidon.png" alt="Poseidon" width="200">
+            </a>
+            <br>
+            <p> In ancient Greek religion, Poseidon was revered as the god of the sea and all water-related elements, earthquakes, and horses. He held a distinct role separate from Pontus, 
+                who personified the sea and was the most ancient Greek water deity. The name "Poseidon" signified either "spouse of the earth" or "ruler of the earth." Traditionally, he was 
+                the offspring of Cronus, the youngest of the 12 Titans, and Cronus's sister Rhea, who was also his consort and a fertility goddess. Poseidon counted among his siblings Zeus, 
+                the chief deity of ancient Greece and god of the sky, and Hades, the ruler of the underworld. Following their overthrow of their father Cronus, Poseidon was allotted lordship 
+                of the sea. He was commonly associated with the trident, a weapon and primary symbol that might have once been used as a fish spear. According to the Greek poet Hesiod, the 
+                trident, akin to Zeus's thunderbolt and Hades's helmet, was crafted by the three Cyclopes.
+                <br>
+                <br>
+                As the god of earthquakes, Poseidon had ties to the land, and his earliest places of worship in Greece were often located inland, though they were sometimes centered around pools, 
+                streams, or connected to water in some way. In this aspect, he was known as "enosichthon" and "ennosigaios," both translating to "earth-shaker," and he was venerated as "asphalios," 
+                the stabilizer. Poseidon's connection to horses likely arrived in Greece with the earliest Hellenes, who introduced the first horses to the region around the 2nd century BCE. He 
+                himself sired numerous horses, the most famous being the winged horse Pegasus through his union with the Gorgon Medusa.
+                <br>
+                <br>
+                Poseidon frequently found himself embroiled in disputes concerning land ownership, most notably in a rivalry for sovereignty over Attica, where he was eventually defeated by the goddess 
+                Athena. Despite the loss, Poseidon received worship there, particularly at Colonus, known as "hippios" or "of horses."
+                <br>
+                <br>
+                Poseidon had numerous offspring, including Pelias and Neleus by Tyro, the daughter of Salmoneus, and thus became the divine ancestor of Thessaly and Messenia's royal families. Many of his 
+                sons held positions of power in different parts of ancient Greece. He also fathered a host of monstrous offspring, among them giants and savage creatures such as Orion, Antaeus, 
+                and Polyphemus. With several consorts, Poseidon was also wed to Amphitrite, an Oceanid, with whom he had multiple children, including the sea creature Triton.
+                <br>
+                <br>
+                The primary festival dedicated to Poseidon was the Isthmia, held every two years near the Isthmus of Corinth. It featured famous athletic competitions, including horse races. 
+                Over time, Poseidon became predominantly associated with his role as the sea god, symbolized by the trident, the dolphin, and the tuna. The Romans, overlooking his other aspects, 
+                equated him with Neptune, their sea god.
+                <br>
+                <br>
+                </p>
+                </div>
+
+                <center>
+                    <h2 style="text-align:center; margin-bottom: 15px;">Poseidon in various media</h2>
+    
+                    <div class="slideshow-container">
+    
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                          <img src="pjopos.jpg" style="width:200px">
+                        </div>
+
+                        <div class="mySlides fade">
+                          <img src="rorposeidon.jpg" style="width:250px">
+                        </div>
+    
+                      <div class="caption-container" id="rcornersslide">
+                        <p id="caption"></p>
+                      </div>
+                    
+                      <div class="row">
+                        <div class="column">
+                          <img class="demo cursor" src="pjopos.jpg" style="width:150px" onclick="currentSlide(1)" alt="Percy Jackson (books)">
+                        </div> 
+                        <div class="column">
+                          <img class="demo cursor" src="rorposeidon.jpg" style="width:150px" onclick="currentSlide(2)" alt="Record of Ragnarok">
+                        </div>
+                      </div>
+                    </div>
+                    
+                      <script src="slideshow.js"></script>
+                    </center>
+    </div>
+        
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+        </footer>
+    </body>
+    
+    </html>

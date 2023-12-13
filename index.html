@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MYTHOS - Greek Mythology</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                    <!-- Added a div for search dropdown -->
+                    <li>
+                        <div class="dropdown-search">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                            <div id="myDropdown" class="dropdown-content-search">
+                                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <!-- Search options -->
+                                <a href="zeus.html">Zeus</a>
+                                <a href="hera.html">Hera</a>
+                                <a href="poseidon.html">Poseidon</a>
+                                <a href="aphrodite.html">Aphrodite</a>
+                                <a href="apollo.html">Apollo</a>
+                                <a href="artemis.html">Artemis</a>
+                                <a href="hermes.html">Hermes</a>
+                                <script src="search.js"></script>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="backgroundimg">
+        <div class="main-content">
+            <span>
+                <h1>Welcome to MYTHOS</h1>
+                <img src="sissy.png" width="300">
+            </span>
+            
+            <p>Welcome to "MYTHOS," your gateway to the fascinating world of Greek mythology. Dive into a treasure trove of timeless tales,
+                epic adventures, and legendary stories that have captivated hearts and minds for centuries. Explore the rich tapestry of gods,
+                heroes, and mythical creatures. Immerse yourself in the magic, mystery, and wonder of ancient Greece as you journey through these
+                captivating narratives.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+        <a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+
+    <script src="search.js"></script>
+</body>
+
+</html>

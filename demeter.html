@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Demeter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                    <!-- Added a div for search dropdown -->
+                   <li>
+                     <div class="dropdown-search">
+                         <button onclick="myFunction()" class="dropbtn">
+                             <span class="material-symbols-outlined">search</span>
+                         </button>
+                         <div id="myDropdown" class="dropdown-content-search">
+                             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                             <!-- Search options -->
+                             <a href="zeus.html">Zeus</a>
+                             <a href="hera.html">Hera</a>
+                             <a href="poseidon.html">Poseidon</a>
+                             <a href="aphrodite.html">Aphrodite</a>
+                             <a href="apollo.html">Apollo</a>
+                             <a href="artemis.html">Artemis</a>
+                             <a href="hermes.html">Hermes</a>
+                             <script src="search.js"></script>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </nav>
+       </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="hera"><center>Demeter</center></h1>
+        <div class="god">
+                <img src="demeterstat.jpg" alt="demeter" width="200">
+            </a>
+            <br>
+            <p> Demeter, a key figure in Greek mythology, is known as the daughter of the deities Cronus and Rhea, sister and consort of Zeus, and revered as the goddess of agriculture. 
+              Her name, signifying her maternal role, is closely associated with motherhood.
+                <br>
+                <br>
+                Although Homer scarcely mentions Demeter and she is not officially counted among the Olympian gods, the origins of her legend likely trace back to ancient times. The core 
+                of her myth revolves around her daughter, Persephone, being abducted by Hades, the god of the underworld. Demeter's search for Persephone led her to reveal secret rites to 
+                the hospitable people of Eleusis, known as the Eleusinian Mysteries. In her sorrow over her daughter's disappearance, she inadvertently caused a famine by neglecting the harvest. 
+                Demeter had a romantic liaison with Iasion, a Cretan, resulting in the birth of Plutus, symbolizing abundant agricultural produce.
+                <br>
+                <br>
+                Primarily known as a goddess of grain, Demeter's influence extended beyond crops to vegetation and the earth's fruits, excluding the bean. She shared similarities with Gaea (Earth) 
+                and was sometimes identified with the Great Mother of the Gods, Cybele or Rhea.
+                <br>
+                <br>
+                Demeter held additional roles as a deity of the underworld, fertility, childbirth, and marriage. Worship practices included agrarian festivals such as Haloa and Chloia, acknowledging 
+                the stages of the agricultural cycle. Erinys and Melaina were epithets highlighting her darker aspects, linked to Arcadian beliefs.
+                <br>
+                <br>
+                In art, Demeter was portrayed resembling Hera but with a more maternal demeanor. She was often depicted with symbols of agriculture like ears of grain, a basket filled with flowers and 
+                fruits, accompanied by a snake. Demeter's attributes emphasized her role as a guardian of agriculture and vegetation. Her representations varied—riding in a chariot, walking, or seated, 
+                often alongside her daughter, Persephone.
+                </p>
+        </div>
+        <center>
+            <h2 style="text-align:center; margin-bottom: 15px;">Demeter in various media</h2>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="demeterboz.jpg">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="demetrhaddes.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="pjodem.jpg">
+                </div>
+
+                <div class="caption-container" id="rcornersslide">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="demeterboz.jpg" onclick="currentSlide(1)" alt="Hades">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="demetrhaddes.jpg" onclick="currentSlide(2)" alt="Record of Ragnarok">
+                </div> 
+                <div class="column">
+                  <img class="demo cursor" src="pjodem.jpg" onclick="currentSlide(3)" alt="Disney">
+                </div>
+              </div>
+            </div>
+            
+              <script src="slideshow.js"></script>
+            </center>
+    </div>
+    
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+    
+    </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Persephone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                    <!-- Added a div for search dropdown -->
+                   <li>
+                     <div class="dropdown-search">
+                         <button onclick="myFunction()" class="dropbtn">
+                             <span class="material-symbols-outlined">search</span>
+                         </button>
+                         <div id="myDropdown" class="dropdown-content-search">
+                             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                             <!-- Search options -->
+                             <a href="zeus.html">Zeus</a>
+                             <a href="hera.html">Hera</a>
+                             <a href="poseidon.html">Poseidon</a>
+                             <a href="aphrodite.html">Aphrodite</a>
+                             <a href="apollo.html">Apollo</a>
+                             <a href="artemis.html">Artemis</a>
+                             <a href="hermes.html">Hermes</a>
+                             <script src="search.js"></script>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </nav>
+       </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="hera"><center>Persephone</center></h1>
+        <div class="god">
+                <img src="persephonestat.jpg" alt="Hera" width="200">
+            </a>
+            <br>
+            <p> 
+              Persephone is a goddess. She is the daughter of Demeter and Zeus, Hades' wife and the queen of the underworld.
+              She is a vegetation goddess. She is identified as the goddess of spring and nature. her cult's origins are unknown but it was actually based on agrarian cults in agricultural communities.
+              Her most well-known myth is that of her abduction. Persephone's origins date back to Mycanean Greece, where on a Linear B inscription, the name Preswa could be identified as Perse.
+                <br>
+                <br>
+               The myth says that Zeus had allowed Hades, who was in love with Persephone, to abduct her as Demeter would not allow it. 
+               Persephone had been gathering flowers in a field when Hades had burst through a cleft in the ground and abducted her.
+               When Demeter had learned of her daughter's disappearance, she searched for her all ovre the earth. In a version of the myth,
+               Demeter had withdrawn from her duties and causes famine for mortals after a failed attempt at making Demophon immortal.
+               Zeus sends Hermes to Hades in order to persuade him to return Persephone. Hades, reluctant and worried that Persephone would not return,
+               gave Persephone pomegranate seeds to eat. In some media today, eating food in the underworld usually means that one could not return to the mortal realm or could but would need to return.
+               Soon, Demeter and Hades had come to an agreement that she will spend part of the year with Hades in the underworld and part with her mother in the upper world.
+                <br>
+                <br>
+                Some tales that Persephone is invloved or mentioned in are the tales of Orpheus, who travelled to the underworld to take back Eurydice and failed and Sisyphus, a king who evaded death by effectively trapping Thanatos for a time, 
+              </p>
+        </div>
+        <center>
+            <h2 style="text-align:center; margin-bottom: 15px;">Persephone in various media</h2>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="Persephone.jpg" style="width:250px">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="perseloreolymp.jpg" style="width:200px">
+                </div>
+
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="Persephone.jpg" style="width:150px" onclick="currentSlide(1)" alt="Hades">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="perseloreolymp.jpg" style="width:150px" onclick="currentSlide(2)" alt="Lore Olympus">
+                </div> 
+              </div>
+            </div>
+            
+              <script src="slideshow.js"></script>
+            </center>
+    </div>
+    
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+    
+    </html>

@@ -1,0 +1,74 @@
+.main-content {
+    flex-direction: column;
+}
+
+.clickables {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.people {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #15141C;
+    transition: transform 0.3s; /* Add a smooth transition effect */
+    width: 300px;
+
+}
+
+.people:hover {
+    transform: scale(1.1); /* Increase the size on hover (you can adjust the scale factor) */
+}
+
+.people img {
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.people p {
+    margin: 0;
+    text-overflow:inherit;
+}
+
+
+/* Footer Styles (continued) */
+.contact-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-section h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+#jan_gerard {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+#kiara_gwynne {
+    display: none;
+    display: flex;
+    justify-content: center;
+}
+
+#ernest_theodore {
+    display: none;
+    display: flex;
+    justify-content: center;
+}
+
+#contactInfo {
+    height:29dvh
+}

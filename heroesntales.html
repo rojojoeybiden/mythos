@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Heroes & Tales</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="gods.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+             <!-- Added a div for search dropdown -->
+             <li>
+                <div class="dropdown-search">
+                    <button onclick="myFunction()" class="dropbtn">
+                        <span class="material-symbols-outlined">search</span>
+                    </button>
+                    <div id="myDropdown" class="dropdown-content-search">
+                        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <!-- Search options -->
+                        <a href="zeus.html">Zeus</a>
+                        <a href="hera.html">Hera</a>
+                        <a href="poseidon.html">Poseidon</a>
+                        <a href="aphrodite.html">Aphrodite</a>
+                        <a href="apollo.html">Apollo</a>
+                        <a href="artemis.html">Artemis</a>
+                        <a href="hermes.html">Hermes</a>
+                        <script src="search.js"></script>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</div>
+</header>
+
+    <!-- Gods Section -->
+    <center>
+<div class="main-content">
+    <div class="gods-section">
+        <h1><center>Heroes and Tales</center></h1>
+        <div class="god">
+            <center>
+
+        <!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')" id="rcornersfilter"> Show all</button>
+    <button class="btn" onclick="filterSelection('heroes')" id="rcornersfilter"> Heroes</button>
+    <button class="btn" onclick="filterSelection('tales')" id="rcornersfilter"> Tales</button>
+
+  </div>
+  
+  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+  <div class="container">
+    <div class="filterDiv heroes" id="rcornerschoice"><a href="heracles.html">Heracles</a></div>
+    <div class="filterDiv tales" id="rcornerschoice"><a href="achilles.html">Achilles</a></div>
+    <div class="filterDiv heroes" id="rcornerschoice"><a href="">Odysseus</a></div>
+  </div>
+  
+<script src="sort.js"></script>
+
+</center>
+</div>
+</div>
+</div>
+</center>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+        <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Cerberus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+
+                    <!-- Added a div for search dropdown -->
+                   <li>
+                     <div class="dropdown-search">
+                         <button onclick="myFunction()" class="dropbtn">
+                             <span class="material-symbols-outlined">search</span>
+                         </button>
+                         <div id="myDropdown" class="dropdown-content-search">
+                             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                             <!-- Search options -->
+                             <a href="zeus.html">Zeus</a>
+                             <a href="hera.html">Hera</a>
+                             <a href="poseidon.html">Poseidon</a>
+                             <a href="aphrodite.html">Aphrodite</a>
+                             <a href="apollo.html">Apollo</a>
+                             <a href="artemis.html">Artemis</a>
+                             <a href="hermes.html">Hermes</a>
+                             <script src="search.js"></script>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </nav>
+       </div>
+    </header>
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="zeus"><center>Cerberus</center></h1>
+        <div class="god">
+                <img class="godborder" src="cerberusstat.jpg" alt="Zeus Sculpture" width="200">
+            </a>
+            <br>
+            <p>Cerberus is a three-headed dog that serves as the gatekeeper of the underworld. He is aptly referred to as the hound of Hades.
+              Cerberus is part of the twelve labors of Heracles, the task Heracles had to bring the beast to Eurystheus. Cerberus is an iconic feature 
+              in some forms of modern media, taking the form of a guard or a trial the protagonists must face.
+                <br>
+                <br>
+                The earliest mentions of Cerberus were in the Illiad and the Odyssey. According to Hesiod, Cerberus is one of the offsprings of Echidna and Typhon and had fifty heads,
+                Pindar gave him a hundred heads and many other philosophers and writers throughout the ages would write different versions of Cerberus.
+                All having features like a single head, snakes for tails and much more.
+                <br>
+                <br>
+                
+                </p>
+                </div>
+<center>
+                <h2 style="text-align:center">Cerberus in various media</h2>
+
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                      <div class="numbertext"></div>
+                      <img src="cerberushades.jpg" style="width:200px">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="zeusherc.jpg" style="width:250px">
+                    </div>
+
+                    <div class="caption-container" id="rcornersslide">
+                    <p id="caption"></p>
+                  </div>
+                
+                  <div class="row">
+                    <div class="column">
+                      <img class="demo cursor" src="cerberushades.jpg" style="width:150px" onclick="currentSlide(1)" alt="Hades">
+                    </div>
+                  </div>
+                </div>
+                
+                    <script src="slideshow.js"></script>
+                </center>
+</div>
+
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+        </footer>
+    </body>
+    
+    </html>

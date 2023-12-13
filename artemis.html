@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Artemis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+
+                       <!-- Added a div for search dropdown -->
+                      <li>
+                        <div class="dropdown-search">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                            <div id="myDropdown" class="dropdown-content-search">
+                                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <!-- Search options -->
+                                <a href="zeus.html">Zeus</a>
+                                <a href="hera.html">Hera</a>
+                                <a href="poseidon.html">Poseidon</a>
+                                <a href="aphrodite.html">Aphrodite</a>
+                                <a href="apollo.html">Apollo</a>
+                                <a href="artemis.html">Artemis</a>
+                                <a href="hermes.html">Hermes</a>
+                                <script src="search.js"></script>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="hera"><center>Artemis</center></h1>
+        <div class="god">
+                <img src="artemisstat.jpg" alt="Artemis" width="200">
+            </a>
+            <br>
+            <p> Artemis, a significant figure in Greek religion, represented the goddess of wild animals, hunting, vegetation, chastity, and childbirth. She was equated by the Romans 
+              with Diana. Artemis was the daughter of Zeus and Leto and the twin sister of Apollo. Among rural communities, she was highly revered. Her character and role varied widely 
+              among regions, yet she consistently symbolized the goddess of untamed nature, often dancing in mountains, forests, and marshes accompanied by nymphs.
+                <br>
+                <br>
+                The worship of Artemis likely began in pre-Hellenic times in Crete or mainland Greece. Many local cults preserved traces of different deities, suggesting that the Greeks 
+                merged Artemis with their own nature divinities. The virginal sister of Apollo contrasted sharply with the multi-breasted Artemis of Ephesus, showcasing the diversity in 
+                her representations.
+                <br>
+                <br>
+                In Artemis's worship, dances of maidens depicting tree nymphs (dryads) were prevalent, especially in her role as the goddess of the tree cult, particularly popular in the Peloponnese. 
+                Throughout this region, Artemis was associated with waters and flourishing wild growth, attended by nymphs of wells and springs (naiads). Her dances often took on wild and uninhibited 
+                forms in certain regions outside the Peloponnese.
+                <br>
+                <br>
+                Artemis was commonly depicted with a stag or hunting dog, symbolizing her role as the Mistress of Animals. However, her cults exhibited considerable diversity. For example, 
+                the Tauropolia festival in Attica honored Artemis Tauropolos (Bull Goddess), where a few drops of blood were offered to her from a man's neck.
+                <br>
+                <br>
+                The tales of Artemis's nymphs' love affairs were possibly attributed to the goddess herself by some interpretations. Post-Homeric poets emphasized Artemis's chastity, her 
+                love for the hunt, dance, music, shadowy groves, and just cities. Her wrath was proverbial, as myths linked it to nature's hostility. However, Greek sculptures avoided 
+                portraying Artemis's relentless anger, and her popularity as a subject in sculptural art rose during the more tranquil 4th-century-BCE period.
+                </p>
+        </div>
+
+        <center>
+            <h2 style="text-align:center; margin-bottom: 15px;">Artemis in various media</h2>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="artloreolymp.jpg">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="Artemis.jpg">
+                </div>
+
+                <div class="caption-container" id="rcornersslide">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="artloreolymp.jpg" onclick="currentSlide(1)" alt="Hades">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="Artemis.jpg" onclick="currentSlide(2)" alt="Record of Ragnarok">
+                </div> 
+              </div>
+            </div>
+            
+              <script src="slideshow.js"></script>
+            </center>
+    </div>
+    
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+    
+    </html>

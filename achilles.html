@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Achilles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                    <!-- Added a div for search dropdown -->
+                   <li>
+                     <div class="dropdown-search">
+                         <button onclick="myFunction()" class="dropbtn">
+                             <span class="material-symbols-outlined">search</span>
+                         </button>
+                         <div id="myDropdown" class="dropdown-content-search">
+                             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                             <!-- Search options -->
+                             <a href="zeus.html">Zeus</a>
+                             <a href="hera.html">Hera</a>
+                             <a href="poseidon.html">Poseidon</a>
+                             <a href="aphrodite.html">Aphrodite</a>
+                             <a href="apollo.html">Apollo</a>
+                             <a href="artemis.html">Artemis</a>
+                             <a href="hermes.html">Hermes</a>
+                             <script src="search.js"></script>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </nav>
+       </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="hera"><center>Achilles</center></h1>
+        <div class="god">
+                <img src="Copy-of-Blog-DG-Photo-Drafts-3.webp" alt="demeter" width="500">
+            </a>
+            <br>
+            <p>
+                Achilles, a central figure in Greek mythology, was the son of Peleus, the mortal king of the Myrmidons, and Thetis, a Nereid or sea nymph. Known for his bravery, unparalleled beauty, 
+                and remarkable skills as a warrior, Achilles stood as the most exceptional fighter in Agamemnon's army during the Trojan War. As depicted by Homer, Achilles was raised by his mother 
+                in Phthia alongside his closest companion, Patroclus. Other tales beyond Homer's accounts suggest various relationships between Patroclus and Achilles, including kinship and even 
+                romance. Additionally, a popular legend describes how Thetis dipped Achilles in the River Styx, rendering him nearly invincible, except for his heel, which remained vulnerable—the 
+                origin of the term "Achilles' heel."
+                <br>
+                <br>
+                Mythological stories tell of Peleus sending Achilles to Lycomedes on Scyros to avoid the prophecy that Achilles would die in battle at Troy. Disguised as a girl and kept among the king's 
+                daughters, Achilles lived there for a while, where he fathered Neoptolemus with Deïdamia. When the Greeks learned from the seer Calchas that Troy couldn't be conquered without Achilles, 
+                they sought and found him.
+                <br>
+                <br>
+                For the initial nine years of the war, Achilles besieged Troy's surrounding regions and captured twelve cities. However, a conflict arose in the tenth year when Achilles demanded that 
+                Agamemnon return Chryseis, a captive woman and his war prize, to her father, a priest of Apollo. Agamemnon, in retaliation, took Achilles' beloved slave Briseis.
+                <br>
+                <br>
+                Enraged, Achilles withdrew from the battle, causing the Greek forces to struggle. Ultimately, Achilles allowed Patroclus to take his place in combat, equipping him with his chariot and 
+                armor. Tragically, Patroclus was slain by Hector, eldest son of King Priam of Troy. Reconciling with Agamemnon, Achilles avenged Patroclus by killing Hector. He then granted Hector's 
+                body to Priam at the king's earnest plea. The Iliad concludes with Hector's funeral, omitting Achilles' death. The Odyssey references his funeral, while later epics, like Arctinus' 
+                Aethiopis, recount Achilles' demise in battle, killed by Paris, guided by Apollo's arrow, after Achilles had slain Memnon, the Ethiopian king, and Penthesilea, the Amazon warrior 
+                queen.
+                </p>
+        </div>
+        <center>
+            <h2 style="text-align:center; margin-bottom: 15px;">Achilles in various media</h2>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="Marvel_Illustrated_The_Iliad_Vol_1_7_Textless.webp">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="206_Achilles_1.png"">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="MythologicalHeroes.webp">
+                </div>
+
+                <div class="caption-container" id="rcornersslide">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="Marvel_Illustrated_The_Iliad_Vol_1_7_Textless.webp" onclick="currentSlide(1)" alt="Marvel Comics">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="206_Achilles_1.png" onclick="currentSlide(2)" alt="Fate Grand Order">
+                </div> 
+                <div class="column">
+                  <img class="demo cursor" src="MythologicalHeroes.webp" onclick="currentSlide(3)" alt="God of War Ascension">
+                </div>
+              </div>
+            </div>
+            
+              <script src="slideshow.js"></script>
+            </center>
+    </div>
+    
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+    
+    </html>

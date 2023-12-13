@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Hermes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+
+                       <!-- Added a div for search dropdown -->
+                      <li>
+                        <div class="dropdown-search">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                            <div id="myDropdown" class="dropdown-content-search">
+                                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <!-- Search options -->
+                                <a href="zeus.html">Zeus</a>
+                                <a href="hera.html">Hera</a>
+                                <a href="poseidon.html">Poseidon</a>
+                                <a href="aphrodite.html">Aphrodite</a>
+                                <a href="apollo.html">Apollo</a>
+                                <a href="artemis.html">Artemis</a>
+                                <a href="hermes.html">Hermes</a>
+                                <script src="search.js"></script>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+    </header>
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="zeus"><center>Hermes</center></h1>
+        <div class="god">
+                <img class="godborder" src="hermesstatue.jpg" alt="Hermes_Mercury" width="200">
+            </a>
+            <br>
+              <p>Often depicted as being mischievous in some myths, Hermes is known as the herald and messenger of the gods and protector of human heralds, travellers and thieves, merchants and orators. He also plays a psychopomp, guiding souls to the underworld. 
+               He is the son of Zeus and Maia. 
+                His iconic symbol is that of his caduceus and winged hat or sandals. His Roman counterpart is known as Mercury.
+                <br>
+                <br>
+                The myth of his birth is known but not very talked about. Hermes was the result of Zeus’ affair with the pleiad, Maia. 
+                When the young god had been born, he had found a tortoise and turned its shell into a lyre before stealing 50 of Apollo’s sacred cattle due to feeling hungry. 
+                He reversed their hooves and stowed them away, offering their meat to the gods and himself.  
+                He returned not long after, acting like an infant. 
+                <br>
+                <br>
+                However, his mother was not fooled. Meanwhile, Apollo had noticed his cows were missing. He soon 
+                tracks down Hermes, who insists in not knowing where the cows had gone. Soon, Hermes is brought 
+                forth to Zeus, who finds the situation amusing], by Apollo. Zeus orders Hermes to lead Apollo to the 
+                cows and the young god does so, playing the lyre as he wins over Apollo. This is how Hermes gains his 
+                caduceus and his place among the gods.
+                <br>
+                <br>
+                Hermes has many epithets, names or titles to his being. 
+                One of his most well-known accmplishments is killing the hundred-eyed giant, Argos and earning himself the name, Argeiphontes. 
+                He frequently helps heroes in myths. He is portrayed in the Illiad as siding with the Acheans, although he aided King Priam in retrieving Hector’s body from them. 
+                In the Odyssey, he helped Odysseus on his journey home.   
+                <br>
+                <br>
+                </p>
+                </div>
+<center>
+                <h2 style="text-align:center; margin-bottom: 15px;">Hermes in various media</h2>
+
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                      <img src="hermespjjo.jpg">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="herm.jpg">
+                    </div>
+
+                    <div class="mySlides fade">
+                      <img src="hermesstatue.jpg">
+                    </div>
+
+                    <div class="caption-container" id="rcornersslide">
+                    <p id="caption"></p>
+                  </div>
+                
+                  <div class="row">
+                    <div class="column">
+                      <img class="demo cursor" src="hermespjjo.jpg" onclick="currentSlide(1)" alt="Percy Jackson movie">
+                    </div>
+                    <div class="column">
+                      <img class="demo cursor" src="herm.jpg" onclick="currentSlide(2)" alt="Hades">
+                    </div> 
+                    <div class="column">
+                      <img class="demo cursor" src="hermesstatue.jpg" onclick="currentSlide(3)" alt="Hermes">
+                    </div>
+                  </div>
+                </div>
+                
+                  <script src="slideshow.js"></script>
+                </center>
+</div>
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+        </footer>
+    </body>
+    
+    </html>

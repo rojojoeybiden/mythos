@@ -1,0 +1,51 @@
+.gods-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.god {
+    padding: 20px 0;
+    border-bottom: 0px solid #ddd; /* Separator between gods */
+    text-align: center;
+}
+
+.god a {
+    text-decoration: none;
+    color: #f2d898; /* Link color */
+    display: block;
+}
+
+.god h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    /* Adjust other styling as needed */
+}
+
+.god p {
+    font-size: 1.2rem;
+    color: #f2d898;
+}
+
+.god img {
+    display: block;
+    margin: 0 auto;
+
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+}
+
+.godborder{
+border: 3px solid #f2d898;
+border-radius: 0px;
+padding: 0px;
+transition: padding 0.1s ease-in-out;
+}
+
+.god img:hover {
+background-color: #f2d898;
+padding: 10px;
+transform: scale(1.0);
+}

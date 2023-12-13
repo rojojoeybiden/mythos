@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - MONSTERS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="gods.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                      <!-- Added a div for search dropdown -->
+                      <li>
+                        <div class="dropdown-search">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                            <div id="myDropdown" class="dropdown-content-search">
+                                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <!-- Search options -->
+                                <a href="zeus.html">Zeus</a>
+                                <a href="hera.html">Hera</a>
+                                <a href="poseidon.html">Poseidon</a>
+                                <a href="aphrodite.html">Aphrodite</a>
+                                <a href="apollo.html">Apollo</a>
+                                <a href="artemis.html">Artemis</a>
+                                <a href="hermes.html">Hermes</a>
+                                <script src="search.js"></script>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gods Section -->
+    <center>
+<div class="main-content">
+    <div class="gods-section">
+        <h1><center>Gods</center></h1>
+        
+        <div class="god">
+            <center>
+        <table id="rcorners">
+            <tr>
+                <th id="rcorners">
+                    <h2>Medusa</h2>
+                </th>
+                <th id="rcorners">
+                    <h2>Minotaur</h2>
+                </th>
+                <th id="rcorners">
+                    <h2>Cerebrus</h2>
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="god">
+                    <a href="zeus.html">
+                        <img class="godborder" src="medusstat.jpg" alt="Zeus" height="300px">
+                    </div>
+                </td>
+                <td>
+                    <div class="god">
+                    <a href="Minotaur.html">
+                        <img class="godborder" src="minotaurstat.jpg" alt="Poseidon" height="300px">
+                    </div>
+                </td>
+                <td>
+                    <div class="god">
+                    <a href="hades.html">
+                        <img class="godborder" src="cerberusstat.jpg" alt="Hades" height="300px">
+                    </div>
+                </td>
+            </tr>
+            </table>    
+</center>
+</div>
+</div>
+</div>
+</center>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+        <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+
+</body>
+
+</html>

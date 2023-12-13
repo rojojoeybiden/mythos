@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Athena</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                    <!-- Added a div for search dropdown -->
+                   <li>
+                     <div class="dropdown-search">
+                         <button onclick="myFunction()" class="dropbtn">
+                             <span class="material-symbols-outlined">search</span>
+                         </button>
+                         <div id="myDropdown" class="dropdown-content-search">
+                             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                             <!-- Search options -->
+                             <a href="zeus.html">Zeus</a>
+                             <a href="hera.html">Hera</a>
+                             <a href="poseidon.html">Poseidon</a>
+                             <a href="aphrodite.html">Aphrodite</a>
+                             <a href="apollo.html">Apollo</a>
+                             <a href="artemis.html">Artemis</a>
+                             <a href="hermes.html">Hermes</a>
+                             <script src="search.js"></script>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </nav>
+       </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="hera"><center>Athena</center></h1>
+        <div class="god">
+                <img src="athena.jpg" alt="Hera" width="200">
+            </a>
+            <br>
+            <p>
+              Athena was the goddess of wisdom, war, and crafts. She was also the patron and namesake of Athens. Athena is often depicted wearing full armor, a helmet, a shield, and a spear. She is also sometimes depicted with the head of Medusa mounted on her shield. She is often considered the daughter of Zeus, the king of the gods, and Metis, the Titaness of wisdom.
+              <br><br>
+              Athena is depicted as a virgin goddess, highlighting her commitment to intellectual pursuits and strategic warfare, with symbols like the owl representing wisdom and the aegis symbolizing protection and divine authorization. Athens, the capital of Greece, derives its name from Athena, who emerged victorious in a contest against Poseidon to become its patron deity. The Parthenon, found on the Acropolis in Athens, is dedicated to her and stands as a symbolic representation of ancient Greek architecture.
+              <br><br>
+              She performed a vital role in Greek myths, offering strategic counsel and support to heroes like Odysseus and Perseus. Despite her warlike associations, she was respected for fairness and justice, showcasing wisdom in diplomacy and civic order. Athena symbolizes the diverse aspects of both intellect and martial prowess in Greek mythology.
+            </p>
+        </div>
+        <center>
+            <h2 style="text-align:center; margin-bottom: 15px;">Athena in various media</h2>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="hadesathena.jpg">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="athenapjo.jpg">
+                </div>
+
+                <div class="caption-container" id="rcornersslide">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="hadesathena.jpg" onclick="currentSlide(1)" alt="Hades">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="athenapjo.jpg" onclick="currentSlide(2)" alt="Record of Ragnarok">
+                </div> 
+              </div>
+            </div>
+            
+              <script src="slideshow.js"></script>
+            </center>
+    </div>
+    
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+    
+    </html>

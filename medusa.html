@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Medusa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+                    
+                    <!-- Added a div for search dropdown -->
+                   <li>
+                     <div class="dropdown-search">
+                         <button onclick="myFunction()" class="dropbtn">
+                             <span class="material-symbols-outlined">search</span>
+                         </button>
+                         <div id="myDropdown" class="dropdown-content-search">
+                             <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                             <!-- Search options -->
+                             <a href="zeus.html">Zeus</a>
+                             <a href="hera.html">Hera</a>
+                             <a href="poseidon.html">Poseidon</a>
+                             <a href="aphrodite.html">Aphrodite</a>
+                             <a href="apollo.html">Apollo</a>
+                             <a href="artemis.html">Artemis</a>
+                             <a href="hermes.html">Hermes</a>
+                             <script src="search.js"></script>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </nav>
+       </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1 id="hera"><center>Medusa</center></h1>
+        <div class="god">
+                <img src="medusstat.jpg" alt="Medusa" width="200">
+            </a>
+            <br>
+            <p> Medusa is one of the offspring of the ancient marine deities Phorcys and Ceto, chthonic monsters from an archaic world, the others being Stheno, and Euryale. 
+                Her lineage is connected with the Graeae sisters, mentioned in Aeschylus's Prometheus Bound, situating both sets of sisters on Kisthene's dreadful plain.
+                <br>
+                <br>
+                In ancient Greek art, Medusa and her sisters were initially depicted as monstrous beings. However, during the fifth century BC, sculptors and vase-painters 
+                started envisioning Medusa not only as fearsome but also as beautiful. Pindar referred to "fair-cheeked Medusa" in an ode written in 490 BC.
+                <br>
+                <br>
+                Classical Greek art showcased Medusa's portrayal transitioning from a hideous creature to an attractive young woman, portrayed as both aggressor and victim, 
+                embodying a tragic figure in her death. Polygnotus depicted Medusa as a peaceful and comely woman, asleep as Perseus beheaded her. However, the act of killing 
+                a beautiful maiden in her sleep poses ambiguity—whether these depictions were intended to evoke sympathy for Medusa's fate or to satirize the traditional hero.
+                <br>
+                <br>
+                In the prevalent version of the myth, Perseus, the hero, was tasked by King Polydectes of Seriphus to obtain Medusa's head. Polydectes desired to marry Perseus's 
+                mother, and Perseus sought help from the gods. Athena provided him with a mirrored shield, Hermes granted him sandals with wings, Hephaestus gave him a sword, and 
+                Hades offered his helm of invisibility. As Medusa was the only mortal Gorgon, Perseus was able to slay her by using the mirrored shield to look at her reflection. 
+                At the time, Medusa was pregnant by Poseidon. When she was beheaded by Perseus, her body gave birth to Pegasus, a winged horse, and Chrysaor, a giant wielding a 
+                golden sword.
+                </p>
+        </div>
+        <center>
+            <h2 style="text-align:center; margin-bottom: 15px;">Medusa in various media</h2>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="Medusa_Uma_Thurman.webp">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="Fluffy_HP1.webp">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="023 Medusa 1.png">
+                </div>
+
+                <div class="caption-container" id="rcornersslide">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="Medusa_Uma_Thurman.webp" onclick="currentSlide(1)" alt="Percy Jackson and the Olympians: The Lightning Thief">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="medusaclashofthetitans.webp" onclick="currentSlide(2)" alt="Clash of the Titans">
+                </div> 
+                <div class="column">
+                  <img class="demo cursor" src="023 Medusa 1.png" onclick="currentSlide(3)" alt="Fate Grand Order">
+                </div>
+              </div>
+            </div>
+            
+              <script src="slideshow.js"></script>
+            </center>
+    </div>
+    
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+    
+    </html>

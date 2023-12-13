@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MYTHOS - Aphrodite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="icon" type="image/x-icon" href="mythoswebsitelogodownsized.png">
+    <link rel="stylesheet" href="universalmythossheet.css">
+    <link rel="stylesheet" href="individualgodspages.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="mythoswebsite.html"><img src="mythoswebsitelogodownsized.png" width="100px" alt="MYTHOS" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="mythoswebsite.html">Home</a></li>
+                    <li><a href="mythosgods.html">Gods</a></li>
+                    <li><a href="mythosgoddesses.html">Goddesses</a></li>
+                    <li><a href="mythosmonsters.html">Monsters</a></li>
+                    <li><a href="heroesntales.html">Heroes & Tales </a></li>
+
+                       <!-- Added a div for search dropdown -->
+                      <li>
+                        <div class="dropdown-search">
+                            <button onclick="myFunction()" class="dropbtn">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                            <div id="myDropdown" class="dropdown-content-search">
+                                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <!-- Search options -->
+                                <a href="zeus.html">Zeus</a>
+                                <a href="hera.html">Hera</a>
+                                <a href="poseidon.html">Poseidon</a>
+                                <a href="aphrodite.html">Aphrodite</a>
+                                <a href="apollo.html">Apollo</a>
+                                <a href="artemis.html">Artemis</a>
+                                <a href="hermes.html">Hermes</a>
+                                <script src="search.js"></script>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+
+    <!-- Gods Section -->
+    <div class="gods-section">
+        <h1><center>Aphrodite</center></h1>
+        <div class="god">
+                <img src="aphrodite.png" alt="Aphrodite" width="200">
+            </a>
+            <br>
+            <p> Aphrodite, an ancient Greek goddess celebrated for her association with love and beauty, was likened to Venus by the Romans. According to the Greek myth, her name 
+                derives from "aphros," meaning "foam." Hesiod's Theogony describes her birth from the sea's white foam generated when Uranus's severed genitals, discarded by his son 
+                Cronus, entered the sea. While Aphrodite was revered as a goddess of the sea and seafaring and was also honored in a martial context, particularly in places like 
+                Sparta, Thebes, and Cyprus, her primary domains were love, fertility, and occasionally, marriage. Despite her affiliation with prostitution, her public worship 
+                generally took on a solemn and austere nature.
+                <br>
+                <br>
+                Some scholars suggest that the worship of Aphrodite may have been influenced by Eastern traditions, as many of her attributes share similarities with ancient Middle 
+                Eastern goddesses like Ishtar and Astarte. Although she was referred to as "Cyprian" due to her association with the island of Cyprus, she had already undergone 
+                Hellenization by the time of Homer's writings. According to Homer, she was the daughter of Zeus and his consort Dione, located at Dodona. In the Odyssey, she was 
+                paired with Hephaestus but was romantically involved with Ares, the god of war, resulting in the birth of Harmonia, Phobos, Deimos, and Eros.
+                <br>
+                <br>
+                Among her mortal lovers, the most notable were Anchises, a Trojan shepherd with whom she had Aeneas, and Adonis, a Semitic nature deity and consort of Ishtar-Astarte. 
+                Adonis met a tragic end, killed by a boar during a hunt, and his death was lamented by women during the Adonia festival. Her connection to the realm of the dead is also 
+                evident in her association with Delphi.
+                <br>
+                <br>
+                Aphrodite's primary centers of worship were located in Paphos and Amathus on Cyprus, as well as on the island of Cythera, a Minoan colony where her cult likely originated 
+                in prehistoric times. In mainland Greece, Corinth stood as the principal hub of her worship. Her close relationship with Eros, the Graces (Charites), and the Horae (Seasons) 
+                emphasized her role in promoting fertility.
+                </p>
+        </div>
+        
+        <center>
+            <h2 style="text-align:center">Zeus in various media</h2>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="aphroror.jpg" style="width:200px">
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="aphrohades.jpg" style="width:250px">
+                </div>
+
+                <div class="caption-container" id="rcornersslide">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="aphroror.jpg" style="width:150px" onclick="currentSlide(1)" alt="Record of Ragnarok (anime)">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="aphrohades.jpg" style="width:150px" onclick="currentSlide(2)" alt="Hades (video game)">
+                </div>
+              </div>
+            </div>
+            
+                <script src="slideshow.js"></script>
+            </center>
+
+    </div>
+    
+        <footer>
+            <p>&copy; 2023 MYTHOS. All rights reserved.</p>
+            <p><a href="mythoscontactus.html">Contact us.</a></p>
+    </footer>
+    
+    </html>
